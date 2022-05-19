@@ -1,0 +1,24 @@
+.competences {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 100vh;
+  background-color: rgb(44, 44, 44);
+  color: aliceblue;
+
+  &__title {
+    display: flex;
+    height: 18%;
+    width: 100%;
+    justify-content: center;
+    gap: 0.7rem;
+    img {
+      display: flex;
+      height: 7rem;
+      padding: 1.5rem;
+    }
+  }
+}

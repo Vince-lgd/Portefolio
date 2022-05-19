@@ -5,7 +5,7 @@ const Section1 = () => {
     <div className="home">
       <div className="home__title">
         <h1>Lagarde Vincent</h1>
-        <h2>Développeur web Front </h2>
+        <h2>Développeur Web Front </h2>
       </div>
     </div>
   );

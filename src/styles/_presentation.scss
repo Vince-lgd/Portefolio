@@ -1,0 +1,23 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 100vh;
+  background-color: rgb(49, 48, 48);
+  color: aliceblue;
+
+  &__desc {
+    display: flex;
+    margin-top: 15rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    gap: 18rem;
+    img {
+      height: 15rem;
+    }
+  }
+}

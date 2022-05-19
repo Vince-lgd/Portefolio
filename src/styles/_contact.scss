@@ -1,0 +1,20 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+  color: aliceblue;
+  &__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &__text {
+      display: flex;
+      width: 70%;
+      text-align: center;
+      justify-content: flex-end;
+    }
+  }
+}
