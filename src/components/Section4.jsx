@@ -11,7 +11,7 @@ const Section4 = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2900,
+    autoplaySpeed: 2200,
     pauseOnHover: true,
     responsive: [
       {

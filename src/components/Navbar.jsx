@@ -1,12 +1,15 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ setScrollValue }) => {
   return (
     <div className="navbar">
-      <p>Présentation</p>
-      <p>Compétences</p>
-      <p>Projets</p>
-      <p>Contact</p>
+      <div className="navbar__text">
+        <button onClick={() => setScrollValue(0)}>Accueil</button>
+        <button onClick={() => setScrollValue(1)}>Présentation</button>
+        <button onClick={() => setScrollValue(2)}>Compétences</button>
+        <button onClick={() => setScrollValue(3)}>Projets</button>
+        <button onClick={() => setScrollValue(4)}>Contact</button>
+      </div>
     </div>
   );
 };

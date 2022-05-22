@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import "./styles/styles.scss";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="app" style={{ height: `${heightScreen}px` }}>
-      <Navbar />
+      <Navbar setScrollValue={setScrollValue} />
       {page.map((el, index) => (
         <div
           key={index}

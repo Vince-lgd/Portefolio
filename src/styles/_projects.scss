@@ -6,11 +6,16 @@
   height: 100%;
   background-color: rgb(37, 37, 37);
   color: aliceblue;
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
   .project {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     &__img {
       width: 50%;
       height: 100%;
