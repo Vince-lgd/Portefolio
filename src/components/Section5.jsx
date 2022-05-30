@@ -14,12 +14,14 @@ const Section5 = () => {
             <h2>Github</h2>
           </a>
 
-          <h2>Mail</h2>
+          <h2>lagardevincent64@gmail.com</h2>
         </div>
         <div className="contact__container__link__text">
           <p>
-            Hesitez pas à me contacter, je suis disponible dès que possible. Si
-            vous avez des besoins de plus de renseignements contactez moi.
+            Je suis actuellment à la recherche d'une entreprise pour une
+            alternance débutant le 12 Septembre 2022, je suis disponible dès que
+            possible. Hesitez pas à me contacter, Si vous avez besoins de plus
+            de renseignements envoyez moi un petit message.
           </p>
         </div>
       </div>

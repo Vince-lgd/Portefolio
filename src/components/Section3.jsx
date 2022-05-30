@@ -5,13 +5,34 @@ const Section3 = () => {
     <div className="competences">
       <h1>Compétences</h1>
       <div className="competences__title">
-        <img src="logoReact.png" alt="logoReact" />
-        <img src="logoTailwind.png" alt="logoTailwind" />
-        <img src="logoSass.png" alt="logoSass" />
-        <img src="logoFigma.png" alt="logoFigma" />
-        <img src="logoMysql.png" alt="logoMysql" />
-        <img src="logoPostman.png" alt="logoPostman" />
-        <img src="logoJS.png" alt="logoJS" />
+        <div>
+          <img src="logoReact.png" alt="logoReact" />
+          <p>React</p>
+        </div>
+        <div>
+          <img src="logoTailwind.png" alt="logoTailwind" />
+          <p>TailWind</p>
+        </div>
+        <div>
+          <img src="logoSass.png" alt="logoSass" />
+          <p>Sass</p>
+        </div>
+        <div>
+          <img src="logoFigma.png" alt="logoFigma" />
+          <p>Figma</p>
+        </div>
+        <div>
+          <img src="logoMysql.png" alt="logoMysql" />
+          <p>Mysql</p>
+        </div>
+        <div>
+          <img src="logoPostman.png" alt="logoPostman" />
+          <p>PostMan</p>
+        </div>
+        <div>
+          <img src="logoJS.png" alt="logoJS" />
+          <p>JavaScript</p>
+        </div>
       </div>
     </div>
   );
