@@ -1,20 +1,19 @@
 .navbar {
   height: 40px;
   width: 90%;
-  background-color: rgb(56, 56, 56);
   position: fixed;
   z-index: 2;
   border: 2px solid white;
   border-radius: 20rem;
-  background-color: rgb(8, 27, 1);
+  background-color: #a3b4d5;
   backdrop-filter: blur(2px);
-  box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
-  align-items: center;
+  box-shadow: 0px 0px 20px 10px #a3b4d5;
   margin-top: 1%;
-  margin-left: 4rem;
+  margin-left: 5%;
+  margin-right: 5%;
   button {
     font-size: 1.3rem;
-    background-color: rgb(8, 27, 1);
+    background-color: #a3b4d5;
     color: aliceblue;
     border: none;
     cursor: pointer;
@@ -29,5 +28,75 @@
   }
   &:hover {
     transform: scale(1.05);
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .navbar {
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+      justify-content: space-around;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media all and (max-width: 750px) {
+  .navbar {
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+    &__text {
+      justify-content: space-around;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navbar {
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+    &__text {
+      justify-content: space-around;
+      font-size: 1rem;
+    }
+  }
+}
+@media all and (max-width: 500px) {
+  .navbar {
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1px;
+
+    button {
+      justify-content: space-around;
+      font-size: 1em;
+    }
+  }
+}
+@media all and (max-width: 400px) {
+  .navbar {
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1px;
+
+    button {
+      justify-content: space-around;
+      font-size: 0.8em;
+    }
   }
 }

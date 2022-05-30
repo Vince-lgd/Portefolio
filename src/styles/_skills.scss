@@ -1,24 +1,38 @@
 .competences {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
   height: 100vh;
-  background-color: rgb(44, 44, 44);
+  background: linear-gradient(#6783bb 50%, #446cbd 100%);
   color: aliceblue;
 
   &__title {
     display: flex;
     width: 100%;
+    text-align: center;
     justify-content: center;
     gap: 0.7rem;
     img {
       display: flex;
-      margin-top: 15rem;
+      margin-top: 5rem;
       height: 7rem;
       padding: 1.5rem;
+      &:hover {
+        transform: scale(1.25);
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .competences {
+    width: 100%;
+
+    img {
+      width: 80rem;
+      justify-content: space-around;
     }
   }
 }

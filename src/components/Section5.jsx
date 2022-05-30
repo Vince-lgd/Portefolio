@@ -14,7 +14,7 @@ const Section5 = () => {
             <h2>Github</h2>
           </a>
 
-          <h2>Mail</h2>
+          <h2>lagardevincent64@gmail.com</h2>
         </div>
         <div className="contact__container__link__text">
           <p>
