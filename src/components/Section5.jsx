@@ -4,7 +4,6 @@ const Section5 = () => {
   return (
     <div className="contact">
       <h1>Contact</h1>
-
       <div className="contact__container">
         <div className="contact__container__link">
           <a href="https://www.linkedin.com/in/vincent-lagarde-b61322234/">
