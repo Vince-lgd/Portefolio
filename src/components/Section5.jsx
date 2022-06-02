@@ -17,7 +17,7 @@ const Section5 = () => {
         </div>
         <div className="contact__container__link__text">
           <p>
-            Je suis actuellment à la recherche d'une entreprise pour une
+            Je suis actuellement à la recherche d'une entreprise pour une
             alternance débutant le 12 Septembre 2022, je suis disponible dès que
             possible. Hesitez pas à me contacter, Si vous avez besoins de plus
             de renseignements envoyez moi un petit message.
