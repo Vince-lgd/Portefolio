@@ -133,7 +133,7 @@
 }
 
 @media all and (max-width: 1000px) {
-  .home {
+  .area {
     width: 90%;
     display: flex;
     align-items: center;
@@ -147,12 +147,13 @@
 }
 
 @media all and (max-width: 700px) {
-  .home {
-    width: 90%;
+  .area {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
 
     &__title {
-      width: 90%;
-
+      width: 18rem;
       font-size: 2rem;
       text-align: center;
     }
@@ -160,11 +161,13 @@
 }
 
 @media all and (max-width: 400px) {
-  .home {
-    width: 90%;
+  .area {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
 
     &__title {
-      width: 90%;
+      width: 18rem;
       font-size: 2rem;
       text-align: center;
     }
