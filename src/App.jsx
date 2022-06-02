@@ -55,7 +55,7 @@ function App() {
       }
       setTimeout(() => {
         setActiveScroll(true);
-      }, 500);
+      }, 100);
     }
   };
 
