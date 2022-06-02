@@ -6,9 +6,10 @@ const Project = ({ name, url, image }) => {
     <div className="project">
       <title>{name}</title>
       <div className="project__img">
-        <img src={image} alt="imgProject" />
+        <a href={url}>
+          <img src={image} alt="imgProject" />
+        </a>
       </div>
-
       <a href={url}>{name}</a>
     </div>
   );
