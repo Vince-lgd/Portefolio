@@ -101,3 +101,18 @@
     }
   }
 }
+@media all and (max-width: 300px) {
+  .navbar {
+    margin-top: 1rem;
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1px;
+
+    button {
+      justify-content: space-around;
+      font-size: 0.65rem;
+    }
+  }
+}
