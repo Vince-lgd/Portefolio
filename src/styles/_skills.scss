@@ -62,9 +62,12 @@
     display: flex;
 
     img {
-      width: 60px;
-      height: 60px;
+      width: 37px;
+      height: 37px;
       justify-content: space-around;
+    }
+    &__title {
+      font-size: 1.2rem;
     }
   }
 }
