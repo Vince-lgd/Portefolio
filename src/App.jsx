@@ -14,9 +14,9 @@ function App() {
 
   useEffect(() => {
     setHeightScreen(window.innerHeight);
-    window.addEventListener("resize", () => {
-      setHeightScreen(window.innerHeight);
-    });
+    // window.addEventListener("resize", () => {
+    //   setHeightScreen(window.innerHeight);
+    // });
   }, []);
 
   const page = [
