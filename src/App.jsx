@@ -14,9 +14,9 @@ function App() {
 
   useEffect(() => {
     setHeightScreen(window.innerHeight);
-    // window.addEventListener("resize", () => {
-    //   setHeightScreen(window.innerHeight);
-    // });
+    window.addEventListener("resize", () => {
+      setHeightScreen(window.innerHeight);
+    });
   }, []);
 
   const page = [
@@ -43,7 +43,7 @@ function App() {
   ];
 
   const scroll = (valueScroll, index) => {
-    if (scrollValue >= 0) {
+    if (scrollValue >= 0 && window.innerWidth > 800) {
       if (valueScroll > 0 && index < page.length - 1) {
         setScrollValue(index + 1);
         setActiveScroll(false);
@@ -58,24 +58,25 @@ function App() {
       }, 1000);
     }
   };
-
-  return (
-    <div className="app" style={{ height: `${heightScreen}px` }}>
-      <Navbar setScrollValue={setScrollValue} />
-      {page.map((el, index) => (
-        <div
-          key={index}
-          className={el.className}
-          style={{
-            height: `${heightScreen}px`,
-            transform: `translateY(-${heightScreen * scrollValue}px)`,
-          }}
-          onWheel={(e) => activeScroll && scroll(e.deltaY, index)}>
-          {el.component}
-        </div>
-      ))}
-    </div>
-  );
+  if (scrollValue >= 0 && window.innerWidth > 800) {
+    return (
+      <div className="app" style={{ height: `${heightScreen}px` }}>
+        <Navbar setScrollValue={setScrollValue} />
+        {page.map((el, index) => (
+          <div
+            key={index}
+            className={el.className}
+            style={{
+              height: `${heightScreen}px`,
+              transform: `translateY(-${heightScreen * scrollValue}px)`,
+            }}
+            onWheel={(e) => activeScroll && scroll(e.deltaY, index)}>
+            {el.component}
+          </div>
+        ))}
+      </div>
+    );
+  }
 }
 
 export default App;
