@@ -134,7 +134,7 @@
 
 @media all and (max-width: 1000px) {
   .area {
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,6 +169,19 @@
     &__title {
       width: 18rem;
       font-size: 2rem;
+      text-align: center;
+    }
+  }
+}
+@media all and (max-width: 300px) {
+  .area {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+    &__title {
+      width: 12rem;
+      font-size: 1.5rem;
       text-align: center;
     }
   }
