@@ -3,7 +3,7 @@ const descProjects = [
     id: 1,
     name: "WildStone, Projet 2 en React et Tailwind",
     url: "https://wildstone.vercel.app/ ",
-    image: "imgWildStone.png",
+    image: "wildStone.jpeg",
   },
   {
     id: 2,
