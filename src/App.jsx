@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import "./styles/styles.scss";
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
-import Section5 from "./components/Section5";
+import Home from "./components/Home";
+import Presenation from "./components/Presentation";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-
+import Project from "./components/Project";
 function App() {
   const [heightScreen, setHeightScreen] = useState(0);
   const [scrollValue, setScrollValue] = useState(0);
@@ -22,23 +22,23 @@ function App() {
   const page = [
     {
       className: "section1",
-      component: <Section1 />,
+      component: <Home />,
     },
     {
       className: "section2",
-      component: <Section2 />,
+      component: <Presenation />,
     },
     {
       className: "section3",
-      component: <Section3 />,
+      component: <Skills />,
     },
     {
       className: "section4",
-      component: <Section4 />,
+      component: <Projects />,
     },
     {
       className: "section5",
-      component: <Section5 />,
+      component: <Contact />,
     },
   ];
 
@@ -58,25 +58,24 @@ function App() {
       }, 1000);
     }
   };
-  if (scrollValue >= 0 && window.innerWidth > 800) {
-    return (
-      <div className="app" style={{ height: `${heightScreen}px` }}>
-        <Navbar setScrollValue={setScrollValue} />
-        {page.map((el, index) => (
-          <div
-            key={index}
-            className={el.className}
-            style={{
-              height: `${heightScreen}px`,
-              transform: `translateY(-${heightScreen * scrollValue}px)`,
-            }}
-            onWheel={(e) => activeScroll && scroll(e.deltaY, index)}>
-            {el.component}
-          </div>
-        ))}
-      </div>
-    );
-  }
+
+  return (
+    <div className="app" style={{ height: `${heightScreen}px` }}>
+      <Navbar setScrollValue={setScrollValue} />
+      {page.map((el, index) => (
+        <div
+          key={index}
+          className={el.className}
+          style={{
+            height: `${heightScreen}px`,
+            transform: `translateY(-${heightScreen * scrollValue}px)`,
+          }}
+          onWheel={(e) => activeScroll && scroll(e.deltaY, index)}>
+          {el.component}
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export default App;

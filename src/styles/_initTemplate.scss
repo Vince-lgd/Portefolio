@@ -1,33 +1,28 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: content-box;
 }
-
-.app {
-  overflow: hidden;
-}
+// .app {
+//   overflow: hidden;
+// }
 
 .section1 {
-  background-color: rgb(56, 56, 56);
-  transition: 1s ease-in-out;
-  min-height: 100vh;
+  transition: 0.9s ease-in-out;
 }
 .section2 {
-  background: red;
-  transition: 1s ease-in-out;
+  transition: 0.9s ease-in-out;
 }
 .section3 {
-  background: yellow;
-  transition: 1s ease-in-out;
+  transition: 0.9s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .section4 {
-  background: green;
-  transition: 1s ease-in-out;
+  transition: 0.9s ease-in-out;
 }
 .section5 {
-  transition: 1s ease-in-out;
+  transition: 0.9s ease-in-out;
 }
