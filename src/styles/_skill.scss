@@ -1,26 +1,29 @@
-.competences {
+.competence {
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background: linear-gradient(#6783bb 50%, #446cbd 100%);
-  color: aliceblue;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  margin-top: 3rem;
-  &__title {
+  height: 100vh;
+  color: aliceblue;
+  &__logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7.5rem;
+    flex-wrap: wrap;
+    height: 6rem;
   }
-  &__map {
+  img {
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    flex-wrap: wrap;
+    height: 4.5rem;
+
+    &:hover {
+      transform: scale(1.25);
+    }
   }
 }
 
 @media all and (max-width: 600px) {
-  .competences {
+  .competence {
     width: 100%;
 
     img {
@@ -32,7 +35,7 @@
   }
 }
 @media all and (max-width: 550px) {
-  .competences {
+  .competence {
     width: 100%;
 
     img {
@@ -45,7 +48,7 @@
 }
 
 @media all and (max-width: 400px) {
-  .competences {
+  .competence {
     width: 100%;
     font-size: 1.5rem;
     display: flex;
@@ -61,7 +64,7 @@
   }
 }
 @media all and (max-width: 347px) {
-  .competences {
+  .competence {
     width: 100%;
     font-size: 1.5rem;
     display: flex;

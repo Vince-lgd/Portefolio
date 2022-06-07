@@ -4,7 +4,9 @@ const Skill = ({ name, image }) => {
   return (
     <div className="competence">
       <h2>{name}</h2>
-      <img src={image} alt="image_logo" />
+      <div className="competence__logo">
+        <img src={image} alt="image_logo" />
+      </div>
     </div>
   );
 };
