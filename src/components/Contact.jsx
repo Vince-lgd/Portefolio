@@ -1,5 +1,4 @@
 import React from "react";
-
 const Section5 = () => {
   return (
     <div className="contact">
@@ -12,8 +11,9 @@ const Section5 = () => {
           <a href="https://github.com/Vince-lgd">
             <h2>Github</h2>
           </a>
-
-          <h2>lagardevincent64@gmail.com</h2>
+          <a href="mailto:lagardevincent64@gmail.com">
+            <h2>Mail</h2>
+          </a>
         </div>
         <div className="contact__container__link__text">
           <p>
