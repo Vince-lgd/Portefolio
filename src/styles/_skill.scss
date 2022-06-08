@@ -3,9 +3,9 @@
   flex-direction: column-reverse;
   align-items: center;
   color: aliceblue;
+  margin-top: 18vh;
   &__logo {
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
     height: 6rem;
   }
@@ -22,13 +22,12 @@
 
 @media all and (max-width: 400px) {
   .competence {
-    font-size: 1rem;
-    &__logo {
-      gap: 5rem;
-    }
+    font-size: 0.7rem;
+    margin-top: 0;
+    gap: 0;
     img {
-      height: 70px;
-      width: 70px;
+      height: 40px;
+      width: 40px;
     }
   }
 }

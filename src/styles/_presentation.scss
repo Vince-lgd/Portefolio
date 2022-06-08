@@ -64,14 +64,12 @@
 @media all and (max-width: 400px) {
   .presentation {
     width: 100%;
-    gap: 2rem;
 
     &__desc {
       font-size: 1rem;
       text-align: center;
-      width: 80%;
-      margin-top: 0.5rem;
-      gap: 2rem;
+      width: 90%;
+      gap: 1rem;
       img {
         height: 10rem;
       }
