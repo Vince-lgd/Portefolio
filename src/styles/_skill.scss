@@ -1,0 +1,34 @@
+.competence {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  color: aliceblue;
+  &__logo {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 6rem;
+  }
+  img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 4.5rem;
+
+    &:hover {
+      transform: scale(1.25);
+    }
+  }
+}
+
+@media all and (max-width: 400px) {
+  .competence {
+    font-size: 1rem;
+    &__logo {
+      gap: 5rem;
+    }
+    img {
+      height: 70px;
+      width: 70px;
+    }
+  }
+}

@@ -17,7 +17,6 @@ const Project = ({ name, url, image }) => {
 
 Project.propTypes = {
   name: Proptypes.string.isRequired,
-  url: Proptypes.string.isRequired,
   image: Proptypes.string.isRequired,
 };
 
