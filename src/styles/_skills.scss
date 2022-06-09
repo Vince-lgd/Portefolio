@@ -19,3 +19,17 @@
     margin-top: 6rem;
   }
 }
+
+@media all and (max-width: 400px) {
+  .competences {
+    font-size: 0.7rem;
+    gap: 0;
+    &__title {
+      margin-top: 5rem;
+    }
+    img {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
