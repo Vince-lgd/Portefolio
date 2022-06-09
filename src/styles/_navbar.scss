@@ -117,6 +117,10 @@
     button {
       justify-content: space-around;
       font-size: 0.6rem;
+      &:hover {
+        transform: scale(1);
+        color: #6e93bd;
+      }
     }
   }
 }
