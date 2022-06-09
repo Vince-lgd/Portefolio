@@ -70,8 +70,11 @@
       text-align: center;
       width: 90%;
       gap: 1rem;
+      &__text {
+        margin-bottom: 8rem;
+      }
       img {
-        height: 10rem;
+        height: 9rem;
       }
     }
   }
