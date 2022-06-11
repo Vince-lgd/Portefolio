@@ -14,9 +14,6 @@ const Section5 = () => {
           <a href="mailto:lagardevincent64@gmail.com">
             <h2>Mail</h2>
           </a>
-          <a href="./public/vincentLagarde.png">
-            <h2>CV</h2>
-          </a>
         </div>
         <div className="contact__container__link__text">
           <p>
