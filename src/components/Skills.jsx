@@ -8,9 +8,11 @@ const Section3 = () => {
       <div className="competences__title">
         <h1>Compétences</h1>
       </div>
-      <div className="competences__map">
-        {skillsArray &&
-          skillsArray.map((skill, index) => <Skill key={index} {...skill} />)}
+      <div className="competences__back">
+        <div className="competences__back__map">
+          {skillsArray &&
+            skillsArray.map((skill, index) => <Skill key={index} {...skill} />)}
+        </div>
       </div>
     </div>
   );
