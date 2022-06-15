@@ -4,13 +4,19 @@
   align-items: center;
   color: aliceblue;
   margin-top: 18vh;
+  &__title {
+    font-size: 1.35rem;
+    text-decoration: underline;
+  }
+
   &__logo {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    height: 6rem;
   }
   img {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     height: 4.5rem;
 
@@ -20,6 +26,20 @@
   }
 }
 
+@media all and (max-width: 600px) {
+  .competence {
+    font-size: 0.7rem;
+    margin-top: 0;
+    gap: 0;
+    &__logo {
+      height: 4rem;
+    }
+    img {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}
 @media all and (max-width: 400px) {
   .competence {
     font-size: 0.7rem;

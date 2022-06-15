@@ -7,6 +7,10 @@
   background: linear-gradient(#446cbd 50%, #1e4eaf 100%);
   color: aliceblue;
   padding: 2rem;
+  &__title {
+    font-size: 1.35rem;
+    text-decoration: underline;
+  }
 
   button {
     width: 25rem;
@@ -69,6 +73,8 @@
 }
 @media all and (max-width: 400px) {
   .projects {
+    font-size: 2rem;
+    text-decoration: underline;
     button {
       width: 7rem;
     }

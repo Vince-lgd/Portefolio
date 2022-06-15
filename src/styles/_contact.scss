@@ -6,7 +6,11 @@
   height: 100vh;
   background: linear-gradient(#1e4eaf 50%, #01205f 100%);
   color: aliceblue;
-  padding-top: 2.5rem;
+
+  &__title {
+    font-size: 1.35rem;
+    text-decoration: underline;
+  }
 
   a {
     text-decoration: none;
@@ -57,17 +61,21 @@
 @media all and (max-width: 400px) {
   .contact {
     width: 100%;
-    font-size: 1rem;
+
+    &__title {
+      font-size: 2rem;
+      text-decoration: underline;
+    }
     &__container {
       flex-direction: column-reverse;
       align-items: center;
       font-size: 1rem;
       margin-top: 1rem;
       &__link {
-        font-size: 1rem;
-        gap: 2rempx;
+        font-size: 1.25rem;
+        gap: 1rem;
         &__text {
-          font-size: 1rem;
+          font-size: 1.8rem;
           width: 90%;
         }
       }

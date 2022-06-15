@@ -17,7 +17,9 @@ const Section4 = () => {
   };
   return (
     <div className="projects">
-      <h1>Projets</h1>
+      <div className="projects__title">
+        <h1>Projets</h1>
+      </div>
 
       <Slider {...settings}>
         {descProjects &&

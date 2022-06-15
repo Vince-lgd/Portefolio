@@ -138,9 +138,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    .circles li:nth-child(10) {
+      left: 70%;
+      width: 100px;
+      height: 160px;
+      animation-delay: 0s;
+      animation-duration: 10s;
+    }
+    .circles li:nth-child(4) {
+      left: 10%;
+      width: 90px;
+      height: 90px;
+      animation-delay: 0s;
+      animation-duration: 10s;
+    }
 
     &__title {
-      width: 90%;
+      width: 45rem;
+      font-size: 2rem;
+    }
+  }
+}
+@media all and (max-width: 800px) {
+  .area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .circles li:nth-child(10) {
+      left: 70%;
+      width: 60px;
+      height: 60px;
+      animation-delay: 0s;
+      animation-duration: 10s;
+    }
+
+    &__title {
+      width: 20rem;
       font-size: 2rem;
     }
   }
@@ -151,11 +185,32 @@
     justify-content: center;
     width: 100%;
     align-items: center;
-
+    .circles li:nth-child(3) {
+      left: 30%;
+      width: 40px;
+      height: 40px;
+      animation-delay: 0s;
+      animation-duration: 8s;
+    }
     &__title {
       width: 18rem;
       font-size: 2rem;
       text-align: center;
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  .area {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    .circles li:nth-child(6) {
+      left: 30%;
+      width: 40px;
+      height: 40px;
+      animation-delay: 0s;
+      animation-duration: 8s;
     }
   }
 }
@@ -197,6 +252,19 @@
     &__title {
       width: 18rem;
       font-size: 2rem;
+      text-align: center;
+    }
+  }
+}
+@media all and (max-width: 370px) {
+  .area {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+    &__title {
+      width: 13rem;
+      font-size: 1.5rem;
       text-align: center;
     }
   }
