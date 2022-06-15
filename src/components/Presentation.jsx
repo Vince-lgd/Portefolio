@@ -3,7 +3,9 @@ import React from "react";
 const Section2 = () => {
   return (
     <div className="presentation">
-      <h1>Présentation</h1>
+      <div className="presentation__title">
+        <h1>Présentation</h1>
+      </div>
       <div className="presentation__desc">
         <img src="/me.png" alt="imgMe" />
         <div className="presentation__desc__text">

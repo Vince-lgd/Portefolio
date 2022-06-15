@@ -7,8 +7,11 @@
   height: 100vh;
   background: linear-gradient(#a3b4d5 50%, #6783bb 100%);
   color: aliceblue;
-
   padding-bottom: 2rem;
+  &__title {
+    font-size: 1.35rem;
+    text-decoration: underline;
+  }
 
   &__desc {
     display: flex;
@@ -64,6 +67,10 @@
 @media all and (max-width: 400px) {
   .presentation {
     width: 100%;
+    &__title {
+      font-size: 2rem;
+      text-decoration: underline;
+    }
 
     &__desc {
       font-size: 1rem;

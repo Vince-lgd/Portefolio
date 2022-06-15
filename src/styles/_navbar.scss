@@ -8,7 +8,7 @@
   background-color: #a3b4d5;
   backdrop-filter: blur(2px);
   box-shadow: 0px 0px 20px 10px #a3b4d5;
-  margin-top: 1%;
+  margin-top: 15px;
   margin-left: 5%;
   margin-right: 5%;
   button {
@@ -47,7 +47,6 @@
 }
 @media all and (max-width: 800px) {
   .navbar {
-    margin: 0;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -91,32 +90,28 @@
 }
 @media all and (max-width: 500px) {
   .navbar {
-    width: 70%;
-    height: 30px;
+    width: 90%;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1rem;
-    margin-left: 4rem;
-    margin-right: 2rem;
 
     button {
       justify-content: space-around;
       font-size: 0.9rem;
+      gap: 20px;
     }
   }
 }
 @media all and (max-width: 400px) {
   .navbar {
-    width: 65%;
+    width: 90%;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1rem;
 
     button {
       justify-content: space-around;
-      font-size: 0.6rem;
+      font-size: 0.7rem;
       &:hover {
         transform: scale(1);
         color: #6e93bd;
@@ -126,16 +121,14 @@
 }
 @media all and (max-width: 300px) {
   .navbar {
-    margin-top: 1rem;
-    width: 50%;
+    width: 90%;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    font-size: 1px;
 
     button {
       justify-content: space-around;
-      font-size: 0.65rem;
+      font-size: 0.5rem;
     }
   }
 }
