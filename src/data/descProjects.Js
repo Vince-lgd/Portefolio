@@ -17,6 +17,12 @@ const descProjects = [
     url: "https://react-tjs.vercel.app/",
     image: "imgAce.png",
   },
+  {
+    id: 4,
+    name: "Site Florian Soria Photographe, React et Scss, durée 1 mois",
+    url: "https://siteflo.vercel.app/",
+    image: "imgFlo.jpg",
+  },
 ];
 
 export default descProjects;
