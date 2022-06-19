@@ -1,4 +1,5 @@
 import Slider from "react-slick";
+import React from "react";
 import descProjects from "../data/descProjects.Js";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -15,6 +16,7 @@ const Section4 = () => {
     pauseOnHover: true,
     ToScroll: 1,
   };
+
   return (
     <div className="projects">
       <div className="projects__title">
