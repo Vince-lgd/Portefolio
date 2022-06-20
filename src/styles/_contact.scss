@@ -74,6 +74,27 @@
     }
   }
 }
+@media all and (max-width: 500px) {
+  .contact {
+    width: 100%;
+    background: linear-gradient(#1e4eaf 50%, #01205f 100%);
+
+    &__title {
+      margin-top: 7rem;
+    }
+    &__container {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 5rem;
+      &__link {
+        align-items: center;
+        &__text {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
 @media all and (max-width: 400px) {
   .contact {
     width: 100%;
