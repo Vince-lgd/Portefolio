@@ -58,6 +58,22 @@
     }
   }
 }
+@media all and (max-width: 600px) {
+  .contact {
+    width: 100%;
+    &__title {
+      margin-top: 5rem;
+    }
+    &__container {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 5rem;
+      &__link {
+        align-items: center;
+      }
+    }
+  }
+}
 @media all and (max-width: 400px) {
   .contact {
     width: 100%;
