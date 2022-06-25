@@ -37,6 +37,20 @@
     }
   }
 }
+@media all and (max-width: 900px) {
+  .presentation {
+    width: 100%;
+
+    &__desc {
+      font-size: 1rem;
+      width: 88%;
+      text-align: center;
+      img {
+        height: 13rem;
+      }
+    }
+  }
+}
 
 @media all and (max-width: 800px) {
   .presentation {
