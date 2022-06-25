@@ -1,6 +1,10 @@
+::-webkit-scrollbar {
+  display: none;
+}
 .app {
-  overflow: hidden;
+  overflow-y: hidden;
   position: relative;
+
   @media screen and (max-width: 800px) {
     overflow: auto;
   }
