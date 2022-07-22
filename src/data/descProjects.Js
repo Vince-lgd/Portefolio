@@ -13,12 +13,18 @@ const descProjects = [
   },
   {
     id: 3,
+    name: "CV Profesionnel, HTML, CSS et JavaScript",
+    url: "https://cv-pro-vincent.vercel.app/",
+    image: "imgCv.png",
+  },
+  {
+    id: 4,
     name: "Personnage Animé, TJS",
     url: "https://react-tjs.vercel.app/",
     image: "imgAce.png",
   },
   {
-    id: 4,
+    id: 5,
     name: "Site Florian Soria Photographe, React et Scss, durée 1 mois",
     url: "https://siteflo.vercel.app/",
     image: "imgFlo.jpg",
