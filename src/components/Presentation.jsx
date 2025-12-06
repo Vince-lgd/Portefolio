@@ -7,7 +7,6 @@ const Section2 = () => {
         <h1>Présentation</h1>
       </div>
       <div className="presentation__desc">
-        <img src="/me.png" alt="imgMe" />
         <div className="presentation__desc__text">
           <p>
             Agent de maintenance en reconversion, naturellement je me suis

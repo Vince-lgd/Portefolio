@@ -27,12 +27,6 @@ const skillsArray = [
 
   {
     id: 6,
-    name: "Postman",
-    image: "logoPostman.png",
-  },
-
-  {
-    id: 5,
     name: "JavaScript",
     image: "logoJS.png",
   },
