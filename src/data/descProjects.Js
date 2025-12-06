@@ -8,7 +8,7 @@ const descProjects = [
   {
     id: 2,
     name: "Green My Mind, Hackathon en 30h React et SCSS",
-    url: "https://green-my-mind.vercel.app/",
+    url: "https://green-my-mind-v2.vercel.app/",
     image: "imgGreen.jpg",
   },
   {
