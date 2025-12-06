@@ -5,7 +5,7 @@ const Section1 = () => {
     <div className="area">
       <div className="area__title">
         <h1>Lagarde Vincent</h1>
-        <h2>Développeur Web Front </h2>
+        <h2>Développeur Web Full-Stack </h2>
       </div>
       <ul className="circles">
         <li></li>
